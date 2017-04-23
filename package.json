@@ -1,0 +1,20 @@
+{
+  "name": "browserify-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "browserify": "^14.3.0",
+    "typescript": "^2.2.2",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "dev-watch": "tsc --watch greeter.ts app.ts",
+    "build-watch": "watchify app.js -o bundle.js"
+  }
+}
